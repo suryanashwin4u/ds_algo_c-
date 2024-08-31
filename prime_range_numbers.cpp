@@ -16,6 +16,6 @@ int main(){
             cout << num << " ";
         }
     }
-    
+     
     return 0;
 }
