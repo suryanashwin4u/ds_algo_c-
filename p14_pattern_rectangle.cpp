@@ -2,13 +2,20 @@
 using namespace std;
 int main(){
     int rows,columns;
+    
     cout << "Enter Rows and Column:";
     cin >> rows >> columns;
 
+    //if rows and columns entered by the user
     for(int i=0;i<rows;i++){
         for(int j=0;j<columns;j++){
             cout << " * ";
         }
         cout << endl;
     }
+
+    //if only rows entered by the user
+    // for(int j=0;j<=rows;j++){
+    //     cout << " * * * * * " << endl;
+    // }
 }
